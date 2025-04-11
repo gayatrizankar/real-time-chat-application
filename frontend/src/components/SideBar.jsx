@@ -8,7 +8,7 @@ const SideBar = () => {
 
     useEffect(() => {
         getUsers();
-    }, []);
+    }, [getUsers]);
 
     const isUserOnline = (userId) => onlineUsers.includes(userId);
 
