@@ -1,5 +1,5 @@
 // src/index.js
-import dotenv from "dotenv";
+const dotenv = require("dotenv");
 import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
